@@ -2366,8 +2366,8 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 60 em;
+  margin: 0.99em 0;
 }
 
 /**
@@ -7825,9 +7825,9 @@ input[type=range]:focus::-ms-fill-upper {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
+  -webkit-align-items: right;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: right;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
