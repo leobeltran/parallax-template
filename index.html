@@ -18,7 +18,6 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        font-family: 'Fugaz One', cursive;
 				<h1 class="header right orange darken-4">The Fencing Pros</h1>
         <div class="row center">
 				</div>
@@ -56,7 +55,8 @@
             <h5 class="center blue-text text-darken-3">Customer Satisfaction</h5>
 						<div class="caption center-align">
             <p class="light">We utilize better welding wire than the majority of Dallas Fence Companies. Our welding wire is better due to the fact that it has greater levels of silicon and manganese deoxidizers, which equate into much better arc qualities and more powerful, longer-lasting welds. Iron Fences and Gates have a longer service life than wood fencing Dallas-Fort Worth. Nonetheless, an Iron Fence or Gate can fall short when a weld point deteriorates gradually. An Iron Fence or Gate can fall short when a weld points deteriorate over time. To prevent this, Ace Fence, aside from making use of much better welding wire than the majority of Fence Companies, constructs your gate from heavier gauge iron than the majority of Fence Companies in Dallas-Fort Worth. To learn more on our Iron Fence items, please see the ornamental Iron Fence area of this website.</p>
-          </div>`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+          </div>
+						
         </div>
 
         <div class="col s12 m4">
@@ -96,15 +96,74 @@
             </div>
             <div class="card-action orange darken-4">
               
-							 <button class="btn waves-effect waves-light blue darken-3" type="submit" name="action">Get Quote
-    						</button>
-							<br><br>
-							  <button class="btn waves-effect waves-light blue darken-3" type="submit" name="action">Talk to a pro Installer
-    						</button>
+							<button class="btn waves-effect waves-light blue darken-3" type="submit" name="action">Get Quote
+    					</button>
+								<br><br>
+							<button class="btn waves-effect waves-light blue darken-3" type="submit" name="action">Talk to a pro Installer
+    					</button>
             </div>
           </div>
         </div>
       </div>
+			
+	<!--first row for first and last name-->
+		<div class="row">
+			<form class="col s12" action="http://fvi-grad.com:4004/email" method="POST">
+				<div class="row">
+					<div class="input-field col s3">
+						<input type="text" placeholder="Type Here" id="full_name" name="full_name">
+						<label for="full_name" class="active">full Name</label>
+					</div>
+<!--
+					<div class="input-field col s3">
+						<input type="text" placeholder="Type Here" id="last_name" class="validate">
+						<label for="last_name" class="active">Family Name</label>
+					</div>
+-->
+				</div>
+		
+		<!--second row part 2 for email-->
+				<div class="row">
+        	<div class="input-field col s6">
+          	<input id="to_email" type="hidden" name="dest_email" value="alpha059a@gmail.com">
+         <!-- 	<label for="to_email" class="active">To Email</label>-->
+        	</div>
+				 </div>
+				
+				<!--second row for email-->
+				<div class="row">
+        	<div class="input-field col s6">
+          	<input id="from_email" type="email" name="email">
+          	<label for="from_email" class="active">Your Email</label>
+        	</div>
+				 </div>
+
+		<!--third row for telephone-->
+				<div class="row">
+					<div class="input-field col s3">
+						<input  placeholder="Telephone" type="tel" id="icon_telephone" class="validate" name="phone">
+						<label for="icon_telephone" class="active">Telephone</label>
+					</div>
+				</div>
+				
+		<!--fourth row for comment-->
+				<div class="row">
+						<div class="input-field col s6">
+							<textarea type="text" id="message" placeholder="type message here" name="message"></textarea>
+							<label for="textarea1" class="active">Comment</label>
+						</div>
+				</div>	
+				
+ 	<!--fifth row for a button-->
+				<div class="row">
+					<div class="col s3 offset-s2">
+						<button class="waves-effect waves-light btn" type="submit">Register</button>
+					</div>
+				 </div>
+				
+						
+			</form>
+		</div>
 
 
   <div class="parallax-container valign-wrapper">
@@ -141,7 +200,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">AlphaCode</a>
       </div>
     </div>
   </footer>
